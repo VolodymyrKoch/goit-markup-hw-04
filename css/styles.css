@@ -120,7 +120,14 @@ color: var(--logo-color);
 
 /* =====hero===== */
 .hero {
-   background-color: #2F303A;}
+   background-color: #C4C4C4;
+  background-image: url("../images/hero/baner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4));
+}
 .hero .title { 
   font-family: Roboto;
   font-weight: 900;
