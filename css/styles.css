@@ -121,12 +121,11 @@ color: var(--logo-color);
 /* =====hero===== */
 .hero {
    background-color: #C4C4C4;
-  background-image: url("../images/hero/baner.jpg");
-  background-repeat: no-repeat;
+    background-repeat: no-repeat;
   background-position: center;
   background-image: linear-gradient(
     rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4));
+    rgba(47, 48, 58, 0.4)), url("../images/hero/baner.jpg");
 }
 .hero .title { 
   font-family: Roboto;
@@ -237,6 +236,19 @@ color: var(--font-color);
 
 margin-top: 0px;
 margin-bottom: 10px;
+}
+/* .advantages__title::before {
+
+} */
+
+.advantages__title .antenna::before {
+  content: "";
+width: 70px;
+height: 70px;
+outline: 1px solid red;
+block-size: cover;
+
+  background-image: url("../images/advantages/antenna.svg");
 }
 .advantages__descript {
   font-family: Roboto;
