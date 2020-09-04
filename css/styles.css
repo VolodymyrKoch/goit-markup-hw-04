@@ -64,7 +64,9 @@ img {
 header .item + .item {
   margin-left: 50px;
 }
-
+/* .item:hover {
+  svg нижнє підкреслення
+} */
 header p {
   margin: 25px 0px;
 }
@@ -414,6 +416,9 @@ main p {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  background-position: center;
+  block-size: contain;
+  block-size: cover;
 }
 
 /* =====customers===== */
