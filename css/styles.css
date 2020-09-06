@@ -78,7 +78,7 @@ header .link {
   letter-spacing: 0.02em;
   color: var(--font-color);
   display: block;
-  padding: 31px 0px;
+  /* padding: 31px 0px; */
 }
 header .link:hover,
 header .link:focus {
@@ -475,18 +475,26 @@ main p {
   margin-right: 30px;
 }
 
+.customers__link {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
 .customers__link:hover .customers__icon,
 .customers__link:focus .customers__icon {
   fill: var(--logo-color);
 }
+.customers__link:hover {
+  border-color: var(--logo-color);
+}
+
 .customers__icon {
-  display: block;
-  width: 170px;
-  height: 90px;
-  border: 1px solid #afb1b8;
   fill: #afb1b8;
-  border-radius: 4px;
-  background-position: center;
 }
 
 /* =====Portfolio===== */
